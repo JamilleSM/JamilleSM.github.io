@@ -1,0 +1,60 @@
+.footer {
+  background: #7c6148;
+}
+
+.rdp-cont {
+  max-width: 1400px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.rdp-texto {
+  font-weight: bold;
+  font-size: 1.23rem;
+  color: #141414;
+  max-width: 40ch;
+}
+
+.rdp-contato li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.rdp-info {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.rdp-info img {
+  max-width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.rdp-copy {
+  grid-column: 1 / -1;
+  font-size: 1.127rem;
+  color: #c4bfbf;
+}
+
+@media (max-width: 800px) {
+  .rdp-cont {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .rdp-contato li {
+    font-size: 1.5rem;
+  }
+}
